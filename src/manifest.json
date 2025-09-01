@@ -1,0 +1,27 @@
+{
+    "id": "watch-order",
+    "name": "Watch Order",
+    "version": "1.0.0",
+    "manifestURI": "",
+    "language": "typescript",
+    "type": "plugin",
+    "description": "Displays the watch order for an anime series on the anime page.",
+    "author": "Bas1874",
+    "icon": "https://github.com/Bas1874/Watch-Order-Seanime/blob/main/scr/icons/AnimeWatchOrderV2.png",
+    "website": "https://github.com/Bas1874/Watch-Order-Seanime",
+    "lang": "en",
+    "payloadURI": "",
+    "plugin": {
+        "version": "1",
+        "permissions": {
+            "scopes": [
+                "anilist",
+                "storage",
+                "database",
+                "anilist-token"
+            ],
+            "allow": {}
+        }
+    },
+    "isDevelopment": false
+}
